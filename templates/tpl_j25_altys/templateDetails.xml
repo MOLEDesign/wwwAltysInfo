@@ -46,8 +46,10 @@
 		<position>breadcrumbs</position>
 		<position>top-a</position>
 		<position>top-b</position>
+        <position>top-c</position>
 		<position>bottom-a</position>
 		<position>bottom-b</position>
+        <position>bottom-c</position>
 		<position>innertop</position>
 		<position>innerbottom</position>
 		<position>sidebar-a</position>
@@ -56,7 +58,7 @@
 		<position>debug</position>
 	</positions>
 	<config>
-		<fields name="params" addfieldpath="/templates/yoo_glass/warp/systems/joomla/config/elements">	
+		<fields name="params" addfieldpath="/templates/tpl_j25_altys/warp/systems/joomla/config/elements">
 			<fieldset name="basic">		
 		    	<field name="config" type="config" label="Config" description="" default="" />			
 			</fieldset>
