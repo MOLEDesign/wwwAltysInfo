@@ -34,7 +34,7 @@ body {  background: #ffefdd; }
 }
 
 .top-a-line #top-a:before,
-.bottom-b-line #bottom-b:before { border-bottom: solid 1px #ccc; }
+.bottom-c-line #bottom-c:before { border-bottom: solid 1px #ccc; }
 
 
 /* Menus - Mega Drop-Down Menu

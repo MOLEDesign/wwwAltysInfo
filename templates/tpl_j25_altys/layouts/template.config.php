@@ -118,7 +118,7 @@ $body_classes  = $sidebar_classes.' ';
 $body_classes .= $this['system']->isBlog() ? 'isblog ' : 'noblog ';
 $body_classes .= $this['config']->get('page_class');
 $body_classes .= ($this['config']->get('top_a_line')) ? ' top-a-line ' : '';
-$body_classes .= ($this['config']->get('bottom_b_line')) ? ' bottom-b-line ' : '';
+$body_classes .= ($this['config']->get('bottom_c_line')) ? ' bottom-c-line ' : '';
 $body_classes .= ' '.'system-'.$this['config']->get('system_style');
 $body_classes .= ' '.'system-'.$this['config']->get('system_white');
 

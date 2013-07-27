@@ -76,12 +76,16 @@ include($this['path']->path('layouts:template.config.php'));
 		</header>
 
 		<?php if ($this['modules']->count('top-a')) : ?>
-		<section id="top-a" class="grid-block"><?php echo $this['modules']->render('top-a', array('layout'=>$this['config']->get('top-a'))); ?></section>
+		    <section id="top-a" class="grid-block"><?php echo $this['modules']->render('top-a', array('layout'=>$this['config']->get('top-a'))); ?></section>
 		<?php endif; ?>
 		
 		<?php if ($this['modules']->count('top-b')) : ?>
-		<section id="top-b" class="grid-block"><?php echo $this['modules']->render('top-b', array('layout'=>$this['config']->get('top-b'))); ?></section>
+		    <section id="top-b" class="grid-block"><?php echo $this['modules']->render('top-b', array('layout'=>$this['config']->get('top-b'))); ?></section>
 		<?php endif; ?>
+
+        <?php if ($this['modules']->count('top-c')) : ?>
+            <section id="top-c" class="grid-block"><?php echo $this['modules']->render('top-c', array('layout'=>$this['config']->get('top-c'))); ?></section>
+        <?php endif; ?>
 		
 		<?php if ($this['modules']->count('innertop + innerbottom + sidebar-a + sidebar-b') || $this['config']->get('system_output')) : ?>
 		<div id="main" class="grid-block">
@@ -122,12 +126,16 @@ include($this['path']->path('layouts:template.config.php'));
 		<?php endif; ?>
 
 		<?php if ($this['modules']->count('bottom-a')) : ?>
-		<section id="bottom-a" class="grid-block"><?php echo $this['modules']->render('bottom-a', array('layout'=>$this['config']->get('bottom-a'))); ?></section>
+		    <section id="bottom-a" class="grid-block"><?php echo $this['modules']->render('bottom-a', array('layout'=>$this['config']->get('bottom-a'))); ?></section>
 		<?php endif; ?>
 		
 		<?php if ($this['modules']->count('bottom-b')) : ?>
-		<section id="bottom-b" class="grid-block"><?php echo $this['modules']->render('bottom-b', array('layout'=>$this['config']->get('bottom-b'))); ?></section>
+		    <section id="bottom-b" class="grid-block"><?php echo $this['modules']->render('bottom-b', array('layout'=>$this['config']->get('bottom-b'))); ?></section>
 		<?php endif; ?>
+
+        <?php if ($this['modules']->count('bottom-c')) : ?>
+            <section id="bottom-c" class="grid-block"><?php echo $this['modules']->render('bottom-c', array('layout'=>$this['config']->get('bottom-c'))); ?></section>
+        <?php endif; ?>
 		
 		<?php if ($this['modules']->count('footer + debug') || $this['config']->get('warp_branding') || $this['config']->get('totop_scroller')) : ?>
 		<footer id="footer">

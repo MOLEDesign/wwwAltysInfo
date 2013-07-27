@@ -32,13 +32,13 @@
 
 /* Section Border Style */
 .top-a-line #top-a,
-.bottom-b-line #bottom-b {
+.bottom-c-line #bottom-c {
 	position: relative; 
 	margin-top: 70px; 
 }
 
 .top-a-line #top-a:before,
-.bottom-b-line #bottom-b:before { 
+.bottom-c-line #bottom-c:before {
 	content: "";
 	position: absolute;
 	display: block;

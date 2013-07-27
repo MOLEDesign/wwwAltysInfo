@@ -25,8 +25,10 @@ foreach (array('suffix', 'style', 'color', 'badge', 'icon', 'dropdownwidth') as 
 if ($style == '') {
 	if ($module->position == 'top-a') $style = 'box';
 	if ($module->position == 'top-b') $style = 'box';
+    if ($module->position == 'top-c') $style = 'box';
 	if ($module->position == 'bottom-a') $style = 'box';
 	if ($module->position == 'bottom-b') $style = 'box';
+    if ($module->position == 'bottom-c') $style = 'box';
 	if ($module->position == 'innertop') $style = 'box';
 	if ($module->position == 'innerbottom') $style = 'box';
 	if ($module->position == 'sidebar-a') $style = 'box';

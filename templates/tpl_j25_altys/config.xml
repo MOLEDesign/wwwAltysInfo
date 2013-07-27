@@ -99,7 +99,7 @@
 	    	<option value="0">No</option>
 	    	<option value="1">Yes</option>
 		</field>
-		<field name="bottom_b_line" type="radio" default="0" label="Bottom B Line" description="Set a line for the Bottom B module position.">
+		<field name="bottom_c_line" type="radio" default="0" label="Bottom C Line" description="Set a line for the Bottom C module position.">
 	    	<option value="0">No</option>
 	    	<option value="1">Yes</option>
 		</field>
@@ -112,7 +112,7 @@
 			<option value="0">No</option>
 			<option value="1">Yes</option>
 		</field>
-		<field name="warp_branding" type="radio" default="1" label="Warp Branding" description="Show the Warp branding.">
+		<field name="warp_branding" type="radio" default="0" label="Warp Branding" description="Show the Warp branding.">
 			<option value="0">No</option>
 			<option value="1">Yes</option>
 		</field>
@@ -138,10 +138,12 @@
 		</field>
 		<field name="top-a" type="layout" default="equal" label="Top A Layout" description="Select a grid layout for this module position." />
 		<field name="top-b" type="layout" default="equal" label="Top B Layout" description="Select a grid layout for this module position." />
+        <field name="top-c" type="layout" default="equal" label="Top C Layout" description="Select a grid layout for this module position." />
 		<field name="innertop" type="layout" default="equal" label="Inner Top Layout" description="Select a grid layout for this module position." />
 		<field name="innerbottom" type="layout" default="equal" label="Inner Bottom Layout" description="Select a grid layout for this module position." />
 		<field name="bottom-a" type="layout" default="equal" label="Bottom A Layout" description="Select a grid layout for this module position." />
 		<field name="bottom-b" type="layout" default="equal" label="Bottom B Layout" description="Select a grid layout for this module position." />
+        <field name="bottom-c" type="layout" default="equal" label="Bottom C Layout" description="Select a grid layout for this module position." />
 		<field name="menu_width" type="text" size="10" default="250" label="Drop Down Column Width" description="Set the column width of the drop down menu in pixel." class="short" />
 	</fields>
 </config>
