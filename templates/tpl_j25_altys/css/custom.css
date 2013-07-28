@@ -54,3 +54,19 @@
 	.frontpage-icons img { width: 70px; }
 
 }
+
+/* Frontpage slioder */
+.frontpage-slideset {
+    position: relative;
+    width: 260px;
+}
+
+.frontpage-slideset img {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.frontpage-slideset h3 { margin: 0; }
+
+.frontpage-slideset .slideset-content { margin-left: 70px; }
